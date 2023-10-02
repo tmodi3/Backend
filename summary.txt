@@ -1,0 +1,33 @@
+1. Why did you choose the tools, libraries, and language you used for the coding exercise?
+I chose Node.js with Express because of the following reasons:
+Node.js and Express are straightforward to set up, enabling rapid development.
+JavaScript is widely used, and chances are high that most developers will have some familiarity with it.
+ Using JavaScript on both the server and client side can make development smoother.
+ Node.js has a vast npm ecosystem, making it easier to find libraries for additional functionalities.
+
+2. What are the advantages and disadvantages of your solution?
+Advantages:
+
+The code is easy to understand and modify.
+While the exercise assumes a single user, the solution can be easily extended for multiple users.
+Basic validation of transactions is included, ensuring data integrity.
+Disadvantages:
+The current implementation is stateful; if the server restarts, all transaction data is lost.
+The solution does not account for concurrent transactions, which might be a concern in a production system.
+The code could be more robust in terms of error handling and edge case scenarios.
+
+
+3. What has been a favorite school/personal project thus far? What about it that challenged you?
+One of my most fulfilling projects was working on Digit Recognition using a Convolutional Neural Network (CNN) on the MNIST dataset. I used Python for coding and TensorFlow for building and training the neural network. I also used Matplotlib for visualizations and NumPy for numerical operations.
+
+The project was challenging for several reasons:
+
+CNN Topology: Designing the architecture of the CNN, including convolutional layers, pooling layers, dropout regularization, and dense classifiers, required a strong understanding of both the theoretical and practical aspects of neural networks.
+
+Data Preprocessing: I had to normalize the pixel intensities of the images and apply one-hot encoding to the labels. This was crucial for the model to learn effectively.
+
+Visualization: Visualizing feature maps and activations helped me understand what the network was learning at each stage. This part was challenging but also very enlightening, as it provided insights into the "black box" of neural networks.
+
+Performance Tuning: Fine-tuning the network parameters to improve accuracy while avoiding overfitting was a meticulous task.
+
+Overall, this project was both challenging and rewarding, providing me with a deeper understanding of neural networks, data preprocessing, and the intricacies involved in model tuning and evaluation.
